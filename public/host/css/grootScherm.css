@@ -1,0 +1,77 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: #008ae6;
+}
+.full-height {
+  height: 100%;
+} 
+
+#links, #rechts {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+#links {
+    width: 30%;
+    margin-left: 5%;
+}
+#rechts {
+    width: 70%;
+    padding-right: 10%;
+}
+
+#scrolvragen {
+    width: 230px;
+    height: 600px;  
+    overflow: auto;
+}
+.vragenlijst {
+    background-color: #00cc00;
+    border: 2px solid black;
+    color: white;
+    margin-bottom: 2px;
+    padding: 4px;
+    height: auto;
+    width: 200px;
+}
+/* NIEUW */
+.naamuser {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.vraaguser {
+    font-size: 13px;
+}
+
+#tekst {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-size: 70px;
+}
+.vraag {
+    border: 2px solid black;
+    height: 500px;
+    width: 800px;
+    padding: 5px;
+    background-color: #00cc00;
+}
+.naamtext {
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+}
+.vraagtext {
+    color: white;
+    font-size: 3em;
+}
