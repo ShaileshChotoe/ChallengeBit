@@ -29,9 +29,8 @@ html, body {
 }
 
 #scrolvragen {
-    width: 200px;
+    width: 230px;
     height: 600px;  
-    border: 1px solid gray;
     overflow: auto;
 }
 .vragenlijst {
@@ -40,7 +39,17 @@ html, body {
     color: white;
     margin-bottom: 2px;
     padding: 4px;
-    height: 70px;
+    height: auto;
+    width: 200px;
+}
+/* NIEUW */
+.naamuser {
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.vraaguser {
+    font-size: 13px;
 }
 
 #tekst {
@@ -50,10 +59,19 @@ html, body {
     margin: 5px;
     font-size: 70px;
 }
-#vraag {
+.vraag {
     border: 2px solid black;
     height: 500px;
     width: 800px;
-    color: white;
+    padding: 5px;
     background-color: #00cc00;
+}
+.naamtext {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+.vraagtext {
+    color: white;
+    font-size: 30px;
 }
